@@ -1,0 +1,123 @@
+footer{
+    margin-top: 25px;
+    background-color: #000000;
+    color: #fff;
+    padding-bottom:15px;
+    border-bottom: 0.5px solid #dcdcdc
+}
+
+footer .grid2{
+    margin-left: 5%;
+    margin-right: 5%;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-gap: 40px;
+    padding-top: 50px
+}
+
+footer .grid2 p{
+    margin-top: 16px;
+    color: #CACACA;
+    font-family: 'Montserrat', sans-serif;
+    font-size:20px
+}
+
+footer .grid2 .center{
+    padding-left: 20%
+}
+
+footer .grid2 strong{
+    font-size:18px;
+    font-weight: 600
+}
+
+footer .grid2 .icons img{
+   margin-right:15px;
+   height:20px;
+   width:20px;
+   margin-top: 50px
+}
+
+footer .grid2 .link{
+    margin-top: 20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+footer .grid2 .link span{
+    border-bottom:1px dashed #C53418;
+    width:60%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+footer .grid2 .link .no-border{
+    border-bottom:0px dashed #C53418;
+
+}
+
+footer .grid2 .link span a{
+    font-size:18px;
+    color:#CACACA
+}
+
+footer .grid2 .getintouch p{
+    margin-top:2%;
+    font-size:16px
+
+}
+
+
+
+footer .grid2 .reachus{
+    background:url('../../assets/map.png');
+    height:185px;
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color:#CACACA;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.copyright strong {
+    margin-left:10px
+}
+
+@media screen and (max-width: 1000px) {
+    footer .grid2{
+        grid-template-columns:repeat(2,1fr);
+        grid-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    footer .grid2 p{
+       font-size: 12px
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    footer .grid2{
+        grid-template-columns:repeat(1,1fr);
+        grid-gap: 15px;
+    }
+
+    footer strong{
+        font-size: 12px
+    }
+
+    .copyright strong{
+        font-size: 12px
+    }
+}

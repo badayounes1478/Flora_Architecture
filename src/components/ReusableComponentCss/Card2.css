@@ -1,0 +1,8 @@
+.card2-box{
+    width: 122px;
+    height: 126px;
+    background:url('../../assets/card.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

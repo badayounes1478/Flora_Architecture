@@ -1,0 +1,85 @@
+.barech_navigation_bar_sub {
+    height: 96px;
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.barech_navigation_bar_sub a {
+    margin-left: 15px;
+    margin-right: 15px
+}
+
+.active {
+    color: #F1B787
+}
+
+.inactive {
+    color: #747474
+}
+
+.barch-container {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #616161;
+    border-radius: 5px;
+    opacity: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+    padding:5%;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.barch-title {
+    position: absolute;
+    top:-1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 40%;
+    align-self: center
+}
+
+
+
+.barch-title strong {
+    color: #F1B787;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.barch-title .barch-line {
+    width: 100px;
+    height: 4px;
+    background-color: #CACACA;
+    margin-top: 10px
+}
+
+.barch-container p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+.barch-sub-container {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align:center;
+    margin-top: 50px;
+    font-weight: 600;
+    margin-bottom:50px
+}
+
+.barch-sub-container-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}

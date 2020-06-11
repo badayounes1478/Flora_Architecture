@@ -1,0 +1,21 @@
+table {
+    font-family: 'Montserrat', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #dddddd;
+    font-size:30px
+  }
+
+  th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 16px;
+  }
+  
+  td {
+    border-right: 1px solid #dddddd;
+    text-align: left;
+    padding: 16px;
+  }
+  
+ 

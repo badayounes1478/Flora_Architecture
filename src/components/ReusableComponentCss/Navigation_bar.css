@@ -1,0 +1,95 @@
+.navigationbar{
+    margin-left:5%;
+    margin-right:5%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center
+
+}
+
+.logo{
+    height:81px;
+    width:114px;
+    margin-right: 10px
+}
+
+.navigationbar .title{
+    font-size:18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600
+}
+
+.navigationbar .sub-title{
+    font-size:16px;
+    font-family: 'Montserrat', sans-serif;
+    color:#E5954E
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    margin-left: 15px
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    color: #000000;
+    outline: none;
+    background-color: inherit;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 3px 6px #0000009C;
+    z-index: 10;
+    padding: 10px
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    color:#747474
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  button img{
+      margin-left: 4px
+  }

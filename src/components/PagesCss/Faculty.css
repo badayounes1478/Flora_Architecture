@@ -1,0 +1,108 @@
+/* Principle grid Container started */
+
+.principle-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.principle,
+.vice-principle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #616161;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 10%;
+    position: relative;
+}
+
+.principle-title {
+    position: absolute;
+    top: -8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 60%
+}
+
+.vice-principle-title {
+    position: absolute;
+    top: -8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 85%
+}
+
+
+.principle-grid strong {
+    color: #F1B787;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.principle-line {
+    width: 100px;
+    height: 4px;
+    background-color: #CACACA;
+    margin-top: 10px
+}
+
+.image-container {
+    width: 450px;
+    height: 344px;
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid #616161;
+}
+
+/* Principle grid Container ended */
+.faculty {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid #616161;
+    border-radius: 5px;
+    margin-top: 100px;
+    position: relative;
+    padding:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faculty-grid{
+   width:100%;
+   display:grid;
+   grid-template-columns:repeat(3,1fr);
+   grid-gap: 5%
+}
+
+.faculty-grid .image {
+    border: 1px solid #616161;
+    border-radius: 5px;
+    height:350px;
+}
+
+.faculty-title {
+    position: absolute;
+    top: -12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 30%;
+}
+
+.faculty strong {
+    color: #F1B787;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}

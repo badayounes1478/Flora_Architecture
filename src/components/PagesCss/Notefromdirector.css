@@ -1,0 +1,109 @@
+.note-from-director-conteiner {
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #616161;
+    border-radius: 5px;
+    opacity: 1;
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center
+}
+
+.note-from-director-grid {
+    display: grid;
+    grid-template-columns: 30% 63%;
+    padding: 3%;
+    margin-top: 5%;
+    grid-gap: 1%
+}
+
+
+.note-from-director-title {
+    position: absolute;
+    top: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 60%
+}
+
+.note-from-director-title strong {
+    color: #F1B787;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.note-from-director-title .about-line {
+    width: 100px;
+    height: 4px;
+    background-color: #CACACA;
+    margin-top: 10px
+}
+
+.note-from-director-image {
+    background:url('../../assets/director.png');
+    background-position:center;
+    background-size: cover;
+    border-radius: 10px;
+    height:455px;
+    width:330px
+}
+
+.note-from-director-sub-title {
+    font-size: 35px;
+    color: #F1B787;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.note-from-director-content p {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bottom-paragraph  {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%;
+}
+
+.note-from-director-info{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:50px
+}
+
+.note-from-director-info .align{
+    display:flex;
+    align-items: center
+}
+
+.note-from-director-info .line{
+    width: 4px;
+    height: 100px;
+    background-color: #CACACA;
+}
+
+.note-from-director-info .sub-title{
+    font-size: 50px;
+    color: #F1B787;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:600;
+    margin-left: 20px
+}
+
+.note-from-director-info p {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3%;
+    margin-left:1%
+}
